@@ -1,0 +1,6 @@
+Õpilane Juhan, pikkusega 164 cm, on pikem kui 160 cm
+Õpilane Juku, pikkusega 176 cm, on pikem kui 160 cm
+Õpilane Kalle, pikkusega 169 cm, on pikem kui 160 cm
+Õpilane Liisa, pikkusega 166 cm, on pikem kui 160 cm
+Õpilane Madis, pikkusega 170 cm, on pikem kui 160 cm
+Õpilane Meelis, pikkusega 171 cm, on pikem kui 160 cm

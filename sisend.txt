@@ -1,0 +1,10 @@
+Juku,M,176
+Madis,M,170
+Liisa,N,166
+Juhan,M,164
+Malle,N,158
+Kati,N,160
+Kalle,M,169
+Grete,N,149
+Maali,N,155
+Meelis,M,171
