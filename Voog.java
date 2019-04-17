@@ -10,7 +10,7 @@ public class Voog{
     Files.readAllLines(Paths.get("sisend.txt")).
       stream().
       filter(s -> Integer.parseInt(s.split(",")[2]) > 160).
-      sorted().
+      sorted(Comparator.comparing(s -> s.split(",")[2])).
       map(s -> "Õpilane " + s.split(",")[0] + ", pikkusega " + s.split(",")[2] + " cm, on pikem kui 160 cm").
       collect(Collectors.toList()).
       forEach(kirjutaja::println)
@@ -36,10 +36,11 @@ Meelis,M,171
 Väljund:
 
 Õpilane Juhan, pikkusega 164 cm, on pikem kui 160 cm
-Õpilane Juku, pikkusega 176 cm, on pikem kui 160 cm
-Õpilane Kalle, pikkusega 169 cm, on pikem kui 160 cm
 Õpilane Liisa, pikkusega 166 cm, on pikem kui 160 cm
+Õpilane Kalle, pikkusega 169 cm, on pikem kui 160 cm
 Õpilane Madis, pikkusega 170 cm, on pikem kui 160 cm
 Õpilane Meelis, pikkusega 171 cm, on pikem kui 160 cm
+Õpilane Juku, pikkusega 176 cm, on pikem kui 160 cm
+
 
 */
